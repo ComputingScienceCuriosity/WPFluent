@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFluent.SplashScreen.WpfSplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Topmost="True"
+        AllowsTransparency="True"
+        Height="204" Width="518" 
+        ShowInTaskbar="False" 
+        ResizeMode="NoResize" 
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" 
+        Background="Transparent"
+        xmlns:shell="http://schemas.microsoft.com/winfx/2006/xaml/presentation/shell"
+        xmlns:composition="clr-namespace:WPFluent.Composition"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+        xmlns:views="clr-namespace:WPFluent.Views"
+        Style="{DynamicResource MainWindowStyle}">
+    <Window.Resources>
+        <Style x:Key="MainWindowStyle" TargetType="{x:Type Window}">
+
+            <Setter Property="shell:WindowChrome.WindowChrome">
+                <Setter.Value>
+                    <shell:WindowChrome ResizeBorderThickness="0"  CaptionHeight="240" CornerRadius="0" GlassFrameThickness="0"/>
+                </Setter.Value>
+            </Setter>
+            
+        </Style>
+    </Window.Resources>
+    
+    <!-- Disabling Hwnd ContextMenu and Enabling blur effect -->
+    <i:Interaction.Behaviors>
+        <composition:BlurCompositionBehavior/>
+        <composition:HwndSystemMenuBehavior/>
+    </i:Interaction.Behaviors>
+
+    <Grid Background="Transparent">
+
+        <views:EffectsPasses/>
+
+        <Grid Width="518" Height="204" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
+            <Image  Source="pack://application:,,,/Resources/SplashWpfFluent.png"/>
+        </Grid>
+        
+    </Grid>
+</Window>

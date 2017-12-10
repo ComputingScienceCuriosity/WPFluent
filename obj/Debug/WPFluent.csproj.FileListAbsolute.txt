@@ -1,0 +1,60 @@
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\WPFluent.exe.config
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\WPFluent.exe
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\WPFluent.pdb
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Themes\ImagesResources.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\WindowHeader.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\App.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent_Content.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent_MarkupCompile.cache
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent_MarkupCompile.lref
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\MainWindow.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Themes\Styles.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\WindowHeader.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.g.resources
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.Properties.Resources.resources
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.csproj.GenerateResource.Cache
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.exe
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.pdb
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\EffectsPasses.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\Views\EffectsPasses.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\WPFluent.csprojResolveAssemblyReference.cache
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\OSVersionInfo.dll
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\App.baml
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\bin\Debug\Resources\SplashWpfFluent.psd
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\SplashScreen\WpfSplashScreen.g.cs
+C:\Users\Yasser\Documents\Visual Studio 2012\Projects\WPFluent\obj\Debug\SplashScreen\WpfSplashScreen.baml
+I:\GitHub\WPFluent\bin\Debug\WPFluent.exe.config
+I:\GitHub\WPFluent\obj\Debug\WPFluent.exe
+I:\GitHub\WPFluent\obj\Debug\WPFluent.pdb
+I:\GitHub\WPFluent\bin\Debug\Resources\SplashWpfFluent.psd
+I:\GitHub\WPFluent\bin\Debug\WPFluent.exe
+I:\GitHub\WPFluent\bin\Debug\WPFluent.pdb
+I:\GitHub\WPFluent\bin\Debug\Microsoft.Windows.Shell.dll
+I:\GitHub\WPFluent\bin\Debug\OSVersionInfo.dll
+I:\GitHub\WPFluent\bin\Debug\System.Windows.Interactivity.dll
+I:\GitHub\WPFluent\bin\Debug\Microsoft.Windows.Shell.pdb
+I:\GitHub\WPFluent\obj\Debug\WPFluent.csprojResolveAssemblyReference.cache
+I:\GitHub\WPFluent\obj\Debug\Themes\ImagesResources.baml
+I:\GitHub\WPFluent\obj\Debug\App.g.cs
+I:\GitHub\WPFluent\obj\Debug\SplashScreen\WpfSplashScreen.g.cs
+I:\GitHub\WPFluent\obj\Debug\Views\EffectsPasses.g.cs
+I:\GitHub\WPFluent\obj\Debug\Views\MainWindow.g.cs
+I:\GitHub\WPFluent\obj\Debug\Views\WindowHeader.g.cs
+I:\GitHub\WPFluent\obj\Debug\WPFluent_Content.g.cs
+I:\GitHub\WPFluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\GitHub\WPFluent\obj\Debug\WPFluent_MarkupCompile.cache
+I:\GitHub\WPFluent\obj\Debug\WPFluent_MarkupCompile.lref
+I:\GitHub\WPFluent\obj\Debug\App.baml
+I:\GitHub\WPFluent\obj\Debug\SplashScreen\WpfSplashScreen.baml
+I:\GitHub\WPFluent\obj\Debug\Views\EffectsPasses.baml
+I:\GitHub\WPFluent\obj\Debug\Views\MainWindow.baml
+I:\GitHub\WPFluent\obj\Debug\Themes\Styles.baml
+I:\GitHub\WPFluent\obj\Debug\Views\WindowHeader.baml
+I:\GitHub\WPFluent\obj\Debug\WPFluent.g.resources
+I:\GitHub\WPFluent\obj\Debug\WPFluent.Properties.Resources.resources
+I:\GitHub\WPFluent\obj\Debug\WPFluent.csproj.GenerateResource.Cache

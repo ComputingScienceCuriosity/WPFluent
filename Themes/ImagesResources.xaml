@@ -1,0 +1,135 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:presentationOptions="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Region IMAGES AND GLYPHS -->
+    <Color x:Key="ColorBackgroundGlyph">Black</Color>
+    <Color x:Key="ColorBorderGlyph">#666</Color>
+    <SolidColorBrush x:Key="StaticBorderBrushGlyph" Color="{StaticResource ColorBorderGlyph}" presentationOptions:Freeze="True"/>
+    <SolidColorBrush x:Key="StaticBrushBackgroundGlyph" Color="{StaticResource ColorBackgroundGlyph}" presentationOptions:Freeze="True"/>
+    
+    <!-- #Region MinimizeGlyph [-] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphMinimize">
+        <DrawingGroup.Children>
+            <GeometryDrawing Geometry="F1 M 8.0757,11.6177L 22.0158,11.6177">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBorderBrushGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M 28.7583,21.902L 1.33334,21.902L 1.33334,1.33335L 28.7583,1.33335L 28.7583,21.902 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="Transparent"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushMinimize" Drawing="{StaticResource GlyphMinimize}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushReduire" Drawing="{StaticResource GlyphMinimize}"/>
+    <!--   #EndRegion -->
+    
+    <!-- #Region MaximizeGlyph [□] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphMaximize">
+        <DrawingGroup.Children>
+            <GeometryDrawing Brush="Transparent" Geometry="F1 M 0,0L 36.75,0L 36.75,21.5L 0,21.5L 0,0 Z "/>
+            <GeometryDrawing Geometry="F1 M 26.8177,17.0821L 9.93225,17.0821L 9.93225,4.41792L 26.8177,4.41792L 26.8177,17.0821 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBorderBrushGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushMaximize" Drawing="{StaticResource GlyphMaximize}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushMaximize" Drawing="{StaticResource GlyphMaximize}"/>
+    <!--   #EndRegion -->
+
+    <!-- #Region MinimizeGlyphWhite [-] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphMinimizeWhite">
+        <DrawingGroup.Children>
+            <GeometryDrawing Geometry="F1 M 8.0757,11.6177L 22.0158,11.6177">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M 28.7583,21.902L 1.33334,21.902L 1.33334,1.33335L 28.7583,1.33335L 28.7583,21.902 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="Transparent"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushMinimizeWhite" Drawing="{StaticResource GlyphMinimizeWhite}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushMinimizeWhite" Drawing="{StaticResource GlyphMinimizeWhite}"/>
+    <!--   #EndRegion -->
+
+    <!-- #Region MaximizeGlyphWhite [□] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphMaximizeWhite">
+        <DrawingGroup.Children>
+            <GeometryDrawing Brush="Transparent" Geometry="F1 M 0,0L 36.75,0L 36.75,21.5L 0,21.5L 0,0 Z "/>
+            <GeometryDrawing Geometry="F1 M 26.8177,17.0821L 9.93225,17.0821L 9.93225,4.41792L 26.8177,4.41792L 26.8177,17.0821 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushMaximizeWhite" Drawing="{StaticResource GlyphMaximizeWhite}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushMaximizeWhite" Drawing="{StaticResource GlyphMaximizeWhite}"/>
+    <!--   #EndRegion -->
+
+    <!-- #Region ResizeWindowGlyphWhite [▫□] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphResizeWindowWhite">
+        <DrawingGroup.Children>
+            <GeometryDrawing Brush="Transparent" Geometry="F1 M 0,0L 36.75,0L 36.75,21.5L 0,21.5L 0,0 Z "/>
+            <GeometryDrawing Geometry="F1 M 25.0669,5.08464L 14.8482,5.08464L 14.8482,9.08464L 20.3183,9.08464L 20.3183,12.4155L 25.0669,12.4155L 25.0669,5.08464 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M 20.3183,16.4155L 10.0997,16.4155L 10.0997,9.08464L 20.3183,9.08464L 20.3183,16.4155 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushResizeWindowWhite" Drawing="{StaticResource GlyphResizeWindowWhite}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushResizeFenetreBlanc" Drawing="{StaticResource GlyphResizeWindowWhite}"/>
+    <!--   #EndRegion -->
+
+    <!-- #Region CloseGlyphWhite [x] -->
+    <DrawingGroup presentationOptions:Freeze="True" x:Key="GlyphCloseWhite">
+        <DrawingGroup.Children>
+            <GeometryDrawing Geometry="F1 M 22.3923,18.9653L 7.69939,4.27002">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M 7.69939,18.9653L 22.3923,4.27002">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="{StaticResource StaticBrushBackgroundGlyph}"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M 28.7583,21.902L 1.33334,21.902L 1.33334,1.33334L 28.7583,1.33334L 28.7583,21.902 Z ">
+                <GeometryDrawing.Pen>
+                    <Pen Thickness="2.66667" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" Brush="Transparent"/>
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush presentationOptions:Freeze="True" x:Key="BrushCloseWhite" Drawing="{StaticResource GlyphCloseWhite}" Stretch="Uniform"/>
+    <DrawingImage presentationOptions:Freeze="True" x:Key="ImageBrushCloseWhite" Drawing="{StaticResource GlyphCloseWhite}"/>
+    <!--   #EndRegion -->
+    
+    <DrawingGroup x:Key="GlyphListTwoColumns">
+        <DrawingGroup.Children>
+            <GeometryDrawing Brush="{StaticResource StaticBorderBrushGlyph}" Geometry="F1 M 10.2756,10.2757L 0,10.2757L 0,0L 10.2756,0L 10.2756,10.2757 Z "/>
+            <GeometryDrawing Brush="{StaticResource StaticBorderBrushGlyph}" Geometry="F1 M 26.2756,10.2757L 16,10.2757L 16,0L 26.2756,0L 26.2756,10.2757 Z "/>
+            <GeometryDrawing Brush="{StaticResource StaticBorderBrushGlyph}" Geometry="F1 M 10.2756,26.2757L 0,26.2757L 0,16L 10.2756,16L 10.2756,26.2757 Z "/>
+            <GeometryDrawing Brush="{StaticResource StaticBorderBrushGlyph}" Geometry="F1 M 26.2756,26.2757L 16,26.2757L 16,16L 26.2756,16L 26.2756,26.2757 Z "/>
+        </DrawingGroup.Children>
+    </DrawingGroup>
+    <DrawingBrush x:Key="BrushListTwoColumns" Drawing="{StaticResource GlyphListTwoColumns}" Stretch="Uniform"/>
+    <DrawingImage x:Key="ImageBrushListTwoColumns" Drawing="{StaticResource GlyphListTwoColumns}"/>
+    <!-- Endregion IMAGE AND GLYPHS-->
+
+</ResourceDictionary>

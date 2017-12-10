@@ -1,0 +1,14 @@
+﻿<Application x:Class="WPFluent.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:uriPack="clr-namespace:WPFluent.UriPack">
+    <Application.Resources>
+
+        <uriPack:CachedResourceDictionary>
+            <uriPack:CachedResourceDictionary.MergedDictionaries>
+                <uriPack:CachedResourceDictionary Source="pack://application:,,,/WPFluent;component/Themes/ImagesResources.xaml"/>
+                <uriPack:CachedResourceDictionary Source="pack://application:,,,/WPFluent;component/Themes/Styles.xaml"/>
+            </uriPack:CachedResourceDictionary.MergedDictionaries>
+        </uriPack:CachedResourceDictionary>
+    </Application.Resources>
+</Application>
